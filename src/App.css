@@ -1,0 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--Background-Caoba, linear-gradient(180deg, #FFF 0%, #F0F3FF 71.22%));
+}
