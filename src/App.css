@@ -9,3 +9,14 @@
 body {
   background: var(--Background-Caoba, linear-gradient(180deg, #FFF 0%, #F0F3FF 71.22%));
 }
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#root {
+  width: 100vw;
+  display: flex;
+}

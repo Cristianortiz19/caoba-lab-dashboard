@@ -5,6 +5,13 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     height: 90vh;
+    box-shadow: 4px 0px 28px 0px rgba(217, 222, 240, 0.98);
+}
+
+.top-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .aside-nav-bar {

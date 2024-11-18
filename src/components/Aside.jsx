@@ -8,7 +8,7 @@ import ExitButton from "./ExitButton";
 function Aside() {
     return (
         <aside>
-            <div>
+            <div className="top-aside">
                 <BackButton />
                 <figure><img src="./caobalab_logo.webp" alt="" /></figure>
                 <nav className="aside-nav-bar">
