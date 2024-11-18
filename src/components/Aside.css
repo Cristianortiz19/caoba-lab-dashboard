@@ -1,4 +1,14 @@
 aside {
     background-color: white;
     padding: 48px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.aside-nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
