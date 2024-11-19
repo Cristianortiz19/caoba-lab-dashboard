@@ -1,10 +1,13 @@
 aside {
     background-color: white;
-    padding: 48px 64px;
+    padding: 0px 64px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 4px 0px 28px 0px rgba(217, 222, 240, 0.98);
+    width: 230px;
+    height: 100%;
+    position: fixed;
 }
 
 .top-aside {

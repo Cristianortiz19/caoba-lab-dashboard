@@ -1,0 +1,17 @@
+.button-primary {
+    background-color: #2A318A;
+    transition: 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #3b42a7;
+}
+
+.button-secondary {
+    background-color: #52B8D1;
+    transition: 0.3s;
+}
+
+.button-secondary:hover {
+    background-color: #77d5ec;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import './AsideButton.css'
 
 function AsideButton({ icon, text, status }) {
     return (
