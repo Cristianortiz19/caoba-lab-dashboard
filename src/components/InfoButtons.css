@@ -1,0 +1,11 @@
+.info-buttons {
+    display: flex;
+}
+
+.info-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}

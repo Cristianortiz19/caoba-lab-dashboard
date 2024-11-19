@@ -5,6 +5,7 @@ import { HomeIcon } from './components/icons'
 import Badge from './components/Badge'
 import DetailCard from './components/DetailCard'
 import AnalysisTextInput from './components/AnalysisTextInput'
+import Info from './components/Info'
 import './App.css'
 
 const BreadcrumbItems = [
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
       <Aside />
-      <main>
+      <main style={{display: 'flex', gap: '30px'}}>
         <Header />
         <nav style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
           <HomeIcon />
@@ -48,6 +49,14 @@ function App() {
 
         <AnalysisTextInput />
         
+        <footer style={{display: 'flex', justifyContent: 'space-between'}}>
+          <Info />
+          <div style={{backgroundColor: 'white', borderRadius: '10px', padding: '16px', width: '300px', gap: '10px', display: 'flex', flexDirection: 'column'}}>
+            <h4 style={{fontSize: '16px', color: '#6C757D', fontWeight: '400'}}>Creado por</h4>
+            <p>Jose Andrés Moncada, Nestor Tobar, Juliana Buitrago, 
+              Valeria Martinez, Maria José Barney, Ana Agudelo, Laura Forero</p>
+          </div>
+        </footer>
       </main>
     </>
   )
