@@ -51,7 +51,7 @@ function App() {
         
         <footer style={{display: 'flex', justifyContent: 'space-between'}}>
           <Info />
-          <div style={{backgroundColor: 'white', borderRadius: '10px', padding: '16px', width: '300px', gap: '10px', display: 'flex', flexDirection: 'column'}}>
+          <div style={{backgroundColor: 'white', borderRadius: '10px', padding: '16px', width: '300px', gap: '10px', display: 'flex', flexDirection: 'column', border: '1px solid #00000033'}}>
             <h4 style={{fontSize: '16px', color: '#6C757D', fontWeight: '400'}}>Creado por</h4>
             <p>Jose Andrés Moncada, Nestor Tobar, Juliana Buitrago, 
               Valeria Martinez, Maria José Barney, Ana Agudelo, Laura Forero</p>

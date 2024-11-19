@@ -4,7 +4,7 @@
     flex-direction: column;
     width: fit-content;
     border-radius: 5px;
-    border: 1px solid var(--Components-Modal-Border, rgba(0, 0, 0, 0.20));
+    border: 1px solid var(--Components-Modal-Border, #00000033);
 }
 
 .detail-card h4 {
