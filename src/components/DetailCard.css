@@ -1,0 +1,47 @@
+.detail-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid var(--Components-Modal-Border, rgba(0, 0, 0, 0.20));
+}
+
+.detail-card h4 {
+    padding: 16px;
+}
+
+
+.detail-card-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detail-card-nav span {
+    display: flex;
+    gap: 8px;
+}
+
+.detail-card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-card-footer div {
+    display: flex;
+    gap: 5px;
+}
+
+.detail-card-footer p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2A318A;
+}
+
+.detail-card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
