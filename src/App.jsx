@@ -4,6 +4,7 @@ import Breadcrumb from './components/Breadcrumb'
 import { HomeIcon } from './components/icons'
 import Badge from './components/Badge'
 import DetailCard from './components/DetailCard'
+import AnalysisTextInput from './components/AnalysisTextInput'
 import './App.css'
 
 const BreadcrumbItems = [
@@ -45,7 +46,7 @@ function App() {
           <DetailCard />
         </section>
 
-        
+        <AnalysisTextInput />
         
       </main>
     </>
